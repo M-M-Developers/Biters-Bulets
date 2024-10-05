@@ -1,0 +1,41 @@
+:root {
+  --background-color: #040d12;
+  --secondary-bg: #183d3d;
+  --text-color-2: #5c8374;
+  --text-color: #93b1a6;
+  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #040d12;
+}
+.nav-link-1 {
+  color: var(--text-color);
+  margin-left: 1em;
+  text-decoration: none;
+}
+.nav-link-1:hover {
+  color: white;
+}
+.navbar-brand {
+  color: var(--text-color);
+}
+.hero-title,
+.hero-content {
+  color: var(--text-color);
+}
+.feature h3,
+.feature p {
+  color: var(--text-color);
+}
+.feature-img {
+  width: 300px;
+  height: 300px;
+}
+.footer-text {
+  color: var(--text-color);
+}
